@@ -9,6 +9,7 @@ console.log(parolaDue);
 // parola più lunga.
 
 if (parolaUno.length == parolaDue.length) {
+  alert('hai insertito due parole della stessa lunghezza');
   console.log(parolaUno);
 }else if (parolaUno.length > parolaDue.length) {
   console.log(parolaDue + ' ' + parolaUno);

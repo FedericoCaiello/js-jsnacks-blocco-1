@@ -6,6 +6,7 @@ var numeroDue = parseInt(prompt('inserisci un altro numero'));
 console.log(numeroDue);
 // Il software stampa il maggiore.
 if (numeroUno == numeroDue) {
+  alert('hai inserito lo stesso numero');
   console.log(numeroUno);
 }else if (numeroUno < numeroDue) {
   console.log(numeroDue);
